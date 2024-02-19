@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+nav ul {
+  margin-left: 50px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 14px;
+  font-family: "Assistant", sans-serif;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: black;
+  cursor: pointer;
+}
+
+sup {
+  color: red;
+}
+
+.nav-search {
+  margin: auto;
+}
+
+.nav-search input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(128, 128, 128, 0.233);
+}
+
+.nav-end {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.discount-card {
+  display: flex;
+}
+
+.container {
+  display: flex;
+}
+
+.app-link {
+  background-color: #4267b2;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 60px;
+  width: 90%;
+  margin: auto;
+  padding: 50px 0;
+  border-radius: 5px;
+}
+
+.app-link h1 {
+  font-size: 3rem;
+  margin-bottom: 2px;
+}
+
+.app-link h2 img {
+  border-radius: 50%;
+  text-align: center;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.download a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  border: 2px solid white;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: black;
+  border-color: black;
+}
